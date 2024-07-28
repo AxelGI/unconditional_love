@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Fotos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="gallery">
+        <div class="photo" onclick="showPhrase(0)">
+            <img src="photo1.jpg" alt="Foto 1">
+        </div>
+        <div class="photo" onclick="showPhrase(1)">
+            <img src="photo2.jpg" alt="Foto 2">
+        </div>
+        <div class="photo" onclick="showPhrase(2)">
+            <img src="photo3.jpg" alt="Foto 3">
+        </div>
+        <!-- Añade más fotos según sea necesario -->
+    </div>
+
+    <div id="overlay" class="overlay" onclick="hidePhrase()">
+        <div class="phrase-box">
+            <p id="phrase-text"></p>
+        </div>
+    </div>
+
+     <!-- Menú Flotante -->
+     <div class="floating-menu">
+        <div class="menu-icon" onclick="toggleMenu()">
+            <img src="heart-icon.png" alt="Menú" />
+        </div>
+        <div id="menu-items" class="menu-items">
+            <a href="index.html">Galería de Fotos</a>
+            <a href="places.html">Lugares y Citas</a>
+            <a href="letter.html">Carta</a>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

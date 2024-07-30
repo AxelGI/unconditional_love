@@ -13,7 +13,7 @@ const phrases = [
 
     "Gracias por hacerme reír y por aguantar mis osos",
     "Me encanta sentirte y tomarnos fotos",
-    "Pensar que todo fue tan rápaido y bonito, llegaste justo a tiempo",
+    "Pensar que todo fue tan rápido y bonito, llegaste justo a tiempo",
     // Añade más frases según sea necesario
 ];
 

@@ -1,7 +1,19 @@
 const phrases = [
     "Cada día a tu lado es una nueva aventura.",
-    "Eres mi razón de sonreír cada mañana.",
-    "Juntos somos invencibles."
+    "Me encanta ser un niño contigo y reirnos de todo",
+    "Ser fashion de las mejores cosas que pude adquirir de ti",
+
+    "¡El mejor cumpleaños de la vida!",
+    "Por mas visitas a la cineteca y fumadas",
+    "Yo no pedí nada porque ya me dio todo santa con esta muñecota ❤",
+
+    "Gracias por presentarme a ese nene hermoso!!",
+    "Por las partidas intensas y divertidas",
+    "Amo las excelentes citas y comidas",
+
+    "Gracias por hacerme reír y por aguantar mis osos",
+    "Me encanta sentirte y tomarnos fotos",
+    "Pensar que todo fue tan rápaido y bonito, llegaste justo a tiempo",
     // Añade más frases según sea necesario
 ];
 
